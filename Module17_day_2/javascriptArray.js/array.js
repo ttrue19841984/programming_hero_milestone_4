@@ -1,0 +1,10 @@
+var signal = "green yellow red";
+var vowels = ['a', 'e', 'i', 'o', 'u'];
+// console.log(vowels.length);
+var numbers = [28, 39, 48, 39, 79, 38, 83];
+var element = numbers[3];
+console.log(element);
+numbers[3]=88;
+console.log(numbers);
+var index = numbers.indexOf(48);
+console.log(index);
